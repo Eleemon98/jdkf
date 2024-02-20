@@ -1,0 +1,14 @@
+@import url('../../style.css');
+.posts {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.posts > * {
+    margin-bottom: 50px;
+}
+
+.posts > :last-child {
+    margin-bottom: 0;
+}

@@ -1,0 +1,21 @@
+/* Themes */
+.theme-light .theme-light {
+    color: #000;
+    background-color: white;
+    border: lightgray;
+}
+
+.tehme-dark .theme-dark {
+    color: whitesmoke;
+    background-color: #222;
+    border: #444;
+}
+
+/* 테마 값을 가져오기 위한 기능 */
+/* 이 함수는 테마 클래스의 컨텍스트 내에서 호출되어야 합니다 */
+
+/* 모바일 뷰포트를 기반으로 스타일 적용을 위한 믹스인 */
+@media (max-width: 480px) {}
+
+/* 탬플릿 뷰포트를 기반으로 스타일 적용을 위한 믹스인 */
+@media (max-width: 960px) {}
